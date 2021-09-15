@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#000">
+
+        <TextView
+            android:gravity="center"
+            android:text="Update Post...."
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="enter name"
+        android:textColorHint="#1E0606"
+        android:textSize="20sp"
+        android:textColor="#000">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="enter class"
+        android:textColorHint="#1E0606"
+        android:textSize="20sp"
+        android:textColor="#000">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="enter rollno"
+        android:textColorHint="#1E0606"
+        android:textSize="20sp"
+        android:textColor="#000">
+
+    </EditText>
+
+
+
+        <TextView
+            android:id="@+id/update"
+            android:gravity="center"
+            android:text="Update"
+            android:textColor="#fff"
+            android:background="#000"
+            android:layout_marginTop="20sp"
+            android:layout_marginHorizontal="20sp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </TextView>
+
+
+
+</LinearLayout>

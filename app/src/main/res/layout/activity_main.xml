@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E91E63">
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+
+   <EditText
+       android:id="@+id/edit1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20sp"
+       android:layout_marginTop="10dp"
+       android:hint="enter name"
+      android:textColorHint="#1E0606"
+       android:textSize="20sp"
+       android:textColor="#000">
+
+   </EditText>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="enter class"
+        android:textColorHint="#1E0606"
+        android:textSize="20sp"
+        android:textColor="#000">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="enter rollno"
+        android:textColorHint="#1E0606"
+        android:textSize="20sp"
+        android:textColor="#000">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="save"
+       android:textSize="20sp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="read"
+        android:textSize="20sp"></Button>
+
+  <com.google.android.gms.common.SignInButton
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      android:id="@+id/signinbtn"
+      android:layout_width="match_parent"
+      android:layout_marginHorizontal="30dp"
+      android:layout_height="wrap_content" />
+
+ <!-- <com.tuyenmonkey.mkloader.MKLoader
+      android:id="@+id/loader"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:visibility="gone"
+      app:mk_color="#ffffff"
+      app:mk_type="FishSpinner" />
+-->
+
+ </LinearLayout>
+
+ <com.google.android.material.floatingactionbutton.FloatingActionButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     app:rippleColor="@color/black"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true"
+     android:layout_marginBottom="30dp"
+     android:layout_marginRight="30dp"
+     android:id="@+id/floatbtn">
+
+ </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+</RelativeLayout>
